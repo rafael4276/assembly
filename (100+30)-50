@@ -1,0 +1,11 @@
+section .text
+    global main
+main:
+    mov ebp, esp; for correct debugging
+   mov bx,100
+   mov ax, 30
+   add ax,bx
+   mov bx,50
+   sub ax,bx ; Resultado no AX
+   
+   
